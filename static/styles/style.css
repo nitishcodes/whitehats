@@ -1,0 +1,42 @@
+body {
+  background-image: url(landingpage.png);
+  width: 100%;
+  height: auto;
+}
+
+.inner-div {
+  width: 700px;
+  height: auto;
+  backdrop-filter: blur(10px);
+  border: 1px solid white;
+  border-radius: 20px;
+}
+
+.button-container {
+  text-align: center;
+}
+
+.secondary-buttons {
+  display: none;
+  margin-top: 10px;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+/* .primary-button:hover + .secondary-buttons,
+.secondary-buttons:hover {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 1;
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+} */
